@@ -54,7 +54,7 @@ A simple authentication system built using Node.js, Express, Sequelize, MySQL, a
 
 4. **Set Up the MySQL Database**
 
-    Ensure that your MySQL server is running and create a database named `mydb` (or the one you configured in the `.env` file).
+    Ensure that your MySQL server is running and create a database named `db_name` (or the one you configured in the `.env` file).
 
     You can create the database using the MySQL CLI or a database management tool.
 
@@ -82,11 +82,11 @@ A simple authentication system built using Node.js, Express, Sequelize, MySQL, a
 
 ## API Endpoints
 
--   **POST /auth/register**
+-   **POST /register**
 
     Registers a new user. Expects a JSON payload with `username`, `email`, and `password`.
 
--   **POST /auth/login**
+-   **POST /login**
 
     Logs in a user and returns a JWT. Expects a JSON payload with `email` and `password`.
 
@@ -105,7 +105,7 @@ auth-system/
 ├── models/
 │   └── user.model.js           # User model
 ├── routes/
-│   ├── user.route.js                 # Authentication routes
+│   ├── user.route.js           # Authentication routes
 ├── tests/
 │   ├── integration/            # Integration tests
 │   │   └── auth.test.js
