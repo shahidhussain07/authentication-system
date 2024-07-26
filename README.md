@@ -36,9 +36,9 @@ A simple authentication system built using Node.js, Express, Sequelize, MySQL, a
 
     ```env
     JWT_SECRET_KEY=your_jwt_secret_key
-    DB_NAME=mydb
-    DB_USER=root
-    DB_PASS=password
+    DB_NAME=db_name
+    DB_USER=your_username
+    DB_PASS=your_password
     DB_HOST=localhost
     ```
 
@@ -47,8 +47,8 @@ A simple authentication system built using Node.js, Express, Sequelize, MySQL, a
     ```env
     JWT_SECRET_KEY=your_jwt_secret_key
     DB_NAME=test_db
-    DB_USER=root
-    DB_PASS=password
+    DB_USER=your_username
+    DB_PASS=your_password
     DB_HOST=localhost
     ```
 
